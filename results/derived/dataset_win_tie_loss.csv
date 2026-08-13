@@ -1,0 +1,10 @@
+protocol,metric,win,tie,loss,mean_dataset_effect
+free_l2,coverage_gain,0,8,0,0.0
+free_l2,cost_saving,8,0,0,0.41658160171492764
+free_l2,changed_reduction,6,0,2,0.11898564422310702
+immutable_l2,coverage_gain,7,1,0,0.1818445973399607
+immutable_l2,cost_saving,7,1,0,0.31183610978364784
+immutable_l2,changed_reduction,7,1,0,0.6341202100736549
+immutable_top3_l1,coverage_gain,7,1,0,0.2323370249620007
+immutable_top3_l1,cost_saving,5,1,2,0.25674605899867253
+immutable_top3_l1,changed_reduction,7,1,0,0.7906102322169444

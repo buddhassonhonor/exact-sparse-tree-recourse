@@ -1,0 +1,5 @@
+implementation,latency_ms,n_units
+Cached Exact,0.08896500469279524,480
+Cached Repair,0.0821773339305459,480
+Scalar Exact,0.33204393491354256,480
+Scalar Repair,0.10463373465024897,480

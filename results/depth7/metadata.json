@@ -1,0 +1,84 @@
+{
+  "generated_at": "2026-08-13T08:20:15.839547",
+  "elapsed_sec": 31.521677255630493,
+  "arguments": {
+    "datasets": [
+      "breast_cancer",
+      "wine_binary",
+      "credit_default",
+      "adult_income",
+      "german_credit",
+      "bank_marketing",
+      "compas",
+      "synthetic_overlap"
+    ],
+    "seeds": [
+      7,
+      13,
+      19,
+      29,
+      37,
+      41,
+      53,
+      61,
+      73,
+      89
+    ],
+    "depth": 7,
+    "max_queries": 200,
+    "repair_steps": 8,
+    "shift_strengths": [
+      0.0
+    ],
+    "workers": 4,
+    "tag": "priority-depth7-r2"
+  },
+  "protocols": [
+    {
+      "name": "free_l2",
+      "use_immutable": false,
+      "max_changes": null,
+      "metric": "scaled_l2"
+    },
+    {
+      "name": "immutable_l2",
+      "use_immutable": true,
+      "max_changes": null,
+      "metric": "scaled_l2"
+    },
+    {
+      "name": "immutable_top3_l1",
+      "use_immutable": true,
+      "max_changes": 3,
+      "metric": "weighted_l1"
+    }
+  ],
+  "methods": [
+    "nn_positive_train",
+    "leaf_centroid",
+    "raw_leaf_projection",
+    "clbr",
+    "metric_leaf_projection",
+    "metric_clbr",
+    "exact_leaf",
+    "exact_leaf_cached",
+    "native_exact_k_sparse",
+    "clbr_uncached"
+  ],
+  "python": "3.13.2",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "Intel64 Family 6 Model 198 Stepping 2, GenuineIntel",
+  "logical_cpus": 24,
+  "memory_gib": 31.420948028564453,
+  "numpy": "2.4.3",
+  "pandas": "2.3.3",
+  "scipy": "1.15.3",
+  "scikit_learn": "1.8.0",
+  "joblib_workers": 4,
+  "train_test_split": "stratified 65/35",
+  "tree_min_samples_leaf": 5,
+  "timeout_policy": "no per-query timeout; failures recorded as invalid/infinite conditional cost",
+  "timing_scope": "candidate generation only; excludes model fitting and dataset loading",
+  "cache_equivalence": "asserted per query with rtol=atol=1e-9",
+  "peak_process_rss_mib": 418.1953125
+}

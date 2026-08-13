@@ -1,0 +1,51 @@
+{
+  "datasets": [
+    "breast_cancer",
+    "wine_binary",
+    "credit_default",
+    "adult_income",
+    "german_credit",
+    "bank_marketing",
+    "compas",
+    "synthetic_overlap"
+  ],
+  "seeds": [
+    7,
+    13,
+    19,
+    29,
+    37,
+    41,
+    53,
+    61,
+    73,
+    89
+  ],
+  "displacements": [
+    0.0,
+    1.0
+  ],
+  "metrics": [
+    "weighted_l1",
+    "scaled_l2"
+  ],
+  "policies": [
+    {
+      "protocol": "free",
+      "immutable": false,
+      "max_changes": null
+    },
+    {
+      "protocol": "immutable",
+      "immutable": true,
+      "max_changes": null
+    },
+    {
+      "protocol": "immutable_top3",
+      "immutable": true,
+      "max_changes": 3
+    }
+  ],
+  "max_queries": 200,
+  "dtype": "IEEE-754 binary32 for queries, bounds, candidates, and prediction validation"
+}

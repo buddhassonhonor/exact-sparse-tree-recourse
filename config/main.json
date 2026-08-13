@@ -1,0 +1,17 @@
+{
+  "datasets": ["breast_cancer", "wine_binary", "credit_default", "adult_income", "german_credit", "bank_marketing", "compas", "synthetic_overlap"],
+  "seeds": [7, 13, 19, 29, 37, 41, 53, 61, 73, 89],
+  "train_test_split": "stratified 65/35",
+  "depth": 5,
+  "minimum_leaf_size": 5,
+  "max_queries_per_split": 200,
+  "repair_steps": 8,
+  "displacement_strengths": [0.0, 1.0],
+  "workers": 4,
+  "inference_dtype": "IEEE-754 binary32",
+  "protocols": [
+    {"name": "free_l2", "immutable": false, "max_changes": null, "metric": "scaled_l2"},
+    {"name": "immutable_l2", "immutable": true, "max_changes": null, "metric": "scaled_l2"},
+    {"name": "immutable_top3_l1", "immutable": true, "max_changes": 3, "metric": "weighted_l1"}
+  ]
+}

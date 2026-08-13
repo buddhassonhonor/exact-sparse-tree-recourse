@@ -1,0 +1,25 @@
+{
+  "title": "Exact Sparse Tree Recourse: Public Artifact",
+  "description": "Code, configuration, aggregate results, figures, actionability policy, and per-query audit records for auditable decision-tree recourse under actionability constraints.",
+  "upload_type": "software",
+  "license": "MIT",
+  "creators": [
+    {"name": "Pan, Yuzhuo"},
+    {"name": "Huang, Zhigao"},
+    {"name": "Wu, Tianying"}
+  ],
+  "keywords": [
+    "counterfactual recourse",
+    "decision trees",
+    "actionability",
+    "exact sparse search",
+    "auditability"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/buddhassonhonor/exact-sparse-tree-recourse",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}
