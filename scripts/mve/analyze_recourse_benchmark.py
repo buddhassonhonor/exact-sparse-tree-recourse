@@ -117,13 +117,13 @@ def main() -> None:
     depth_summary.to_csv(out_dir / "depth_summary.csv", index=False)
 
     plt.rcParams.update({
-        "font.size": 18, "axes.titlesize": 18, "axes.labelsize": 18,
-        "xtick.labelsize": 16, "ytick.labelsize": 16, "legend.fontsize": 16,
+        "font.size": 27, "axes.titlesize": 27, "axes.labelsize": 27,
+        "xtick.labelsize": 24, "ytick.labelsize": 24, "legend.fontsize": 24,
     })
     constraints = ["free_l2", "immutable_l2", "immutable_top3_l1"]
     constraint_labels = ["Free", "Immutable", "Immutable + top-3"]
     methods = ["raw_leaf_projection", "clbr", "metric_clbr", "exact_leaf", "native_exact_k_sparse"]
-    fig, axes = plt.subplots(1, 2, figsize=(15, 6))
+    fig, axes = plt.subplots(1, 2, figsize=(15, 7.5))
     x = np.arange(len(constraints))
     width = 0.16
     for offset, method in enumerate(methods):
