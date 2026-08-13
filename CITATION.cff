@@ -9,7 +9,9 @@ authors:
     given-names: Zhigao
   - family-names: Wu
     given-names: Tianying
-version: 1.0.0
+version: 1.0.1
 date-released: 2026-08-13
 license: MIT
 repository-code: "https://github.com/buddhassonhonor/exact-sparse-tree-recourse"
+doi: 10.5281/zenodo.21911118
+url: "https://doi.org/10.5281/zenodo.21911118"

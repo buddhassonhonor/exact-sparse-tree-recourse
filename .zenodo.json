@@ -2,6 +2,7 @@
   "title": "Exact Sparse Tree Recourse: Public Artifact",
   "description": "Code, configuration, aggregate results, figures, actionability policy, and per-query audit records for auditable decision-tree recourse under actionability constraints.",
   "upload_type": "software",
+  "version": "v1.0.1",
   "license": "MIT",
   "creators": [
     {"name": "Pan, Yuzhuo"},

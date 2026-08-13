@@ -1,5 +1,7 @@
 # Exact Sparse Tree Recourse
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21911118.svg)](https://doi.org/10.5281/zenodo.21911118)
+
 Public artifact for *Auditable Recourse for Decision Trees under Actionability Constraints: From Projection-and-Repair to Exact Sparse Leaf Search*.
 
 The repository contains the complete single-tree recourse benchmark, binary32 boundary implementation, metric cross-check, actionability policy, statistical analyses, figure generator, aggregate results, and compressed per-query audit records.
@@ -71,3 +73,7 @@ python scripts/mve/analyze_recourse_benchmark.py \
 - `environment/`: captured software and hardware metadata.
 
 The per-query data and generated results are released under CC BY 4.0; source code is released under the MIT License.
+
+## Citation
+
+The immutable v1.0.1 artifact is archived at Zenodo: [10.5281/zenodo.21911118](https://doi.org/10.5281/zenodo.21911118). Citation metadata are provided in `CITATION.cff`.
