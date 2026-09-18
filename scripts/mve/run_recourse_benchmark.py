@@ -168,6 +168,22 @@ def immutable_indices(ds: Dataset, protocol: Protocol) -> np.ndarray:
     return np.array([i for i, n in enumerate(ds.feature_names) if n in wanted], dtype=int)
 
 
+def pred32(threshold: float) -> np.float32:
+    """Largest binary32 value no greater than a stored float64 threshold."""
+    rounded = np.float32(threshold)
+    if float(rounded) > float(threshold):
+        rounded = np.nextafter(rounded, np.float32(-math.inf), dtype=np.float32)
+    return rounded
+
+
+def succ32(threshold: float) -> np.float32:
+    """Smallest binary32 value strictly greater than a stored float64 threshold."""
+    rounded = np.float32(threshold)
+    if float(rounded) <= float(threshold):
+        rounded = np.nextafter(rounded, np.float32(math.inf), dtype=np.float32)
+    return rounded
+
+
 def implementable_bound_matrices(
     boxes: dict,
     positive_leaves: Sequence[int],
@@ -178,15 +194,9 @@ def implementable_bound_matrices(
     ubs = np.full((len(positive_leaves), n_features), np.inf, dtype=np.float32)
     for row, leaf in enumerate(positive_leaves):
         for j, value in boxes[leaf]["lb"].items():
-            bound = np.float32(value)
-            if float(bound) <= float(value):
-                bound = np.nextafter(bound, np.float32(math.inf), dtype=np.float32)
-            lbs[row, int(j)] = bound
+            lbs[row, int(j)] = succ32(float(value))
         for j, value in boxes[leaf]["ub"].items():
-            bound = np.float32(value)
-            if float(bound) > float(value):
-                bound = np.nextafter(bound, np.float32(-math.inf), dtype=np.float32)
-            ubs[row, int(j)] = bound
+            ubs[row, int(j)] = pred32(float(value))
     if np.any(lbs > ubs):
         raise AssertionError("An implementation-level leaf box has no attainable float32 point")
     return lbs, ubs

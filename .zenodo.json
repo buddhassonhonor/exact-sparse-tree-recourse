@@ -1,13 +1,22 @@
 {
-  "title": "Exact Sparse Tree Recourse: Public Artifact",
-  "description": "Code, configuration, aggregate results, figures, actionability policy, and per-query audit records for auditable decision-tree recourse under actionability constraints.",
+  "title": "Diagnosing Projection-and-Repair for Actionability-Constrained Decision-Tree Recourse: Public Artifact",
+  "description": "Code, configuration, aggregate results, figures, actionability policy, and per-query audit records for Diagnosing Projection-and-Repair for Actionability-Constrained Decision-Tree Recourse.",
   "upload_type": "software",
-  "version": "v1.0.1",
+  "version": "v1.0.2",
   "license": "MIT",
   "creators": [
-    {"name": "Pan, Yuzhuo"},
-    {"name": "Huang, Zhigao"},
-    {"name": "Wu, Tianying"}
+    {
+      "name": "Huang, Zhigao",
+      "affiliation": "Key Laboratory of Information Functional Material for Fujian Higher Education, Quanzhou Normal University"
+    },
+    {
+      "name": "Zhang, Run-Fa",
+      "affiliation": "School of Automation and Software Engineering, Shanxi University"
+    },
+    {
+      "name": "Ke, Yueqian",
+      "affiliation": "Key Laboratory of Information Functional Material for Fujian Higher Education, Quanzhou Normal University"
+    }
   ],
   "keywords": [
     "counterfactual recourse",

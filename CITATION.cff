@@ -1,17 +1,20 @@
 cff-version: 1.2.0
 message: "If you use this artifact, please cite the associated paper and archived release."
-title: "Exact Sparse Tree Recourse: Public Artifact"
+title: "Diagnosing Projection-and-Repair for Actionability-Constrained Decision-Tree Recourse: Public Artifact"
 type: software
 authors:
-  - family-names: Pan
-    given-names: Yuzhuo
   - family-names: Huang
     given-names: Zhigao
-  - family-names: Wu
-    given-names: Tianying
-version: 1.0.1
-date-released: 2026-08-13
+    affiliation: "Key Laboratory of Information Functional Material for Fujian Higher Education, Quanzhou Normal University"
+  - family-names: Zhang
+    given-names: Run-Fa
+    affiliation: "School of Automation and Software Engineering, Shanxi University"
+  - family-names: Ke
+    given-names: Yueqian
+    affiliation: "Key Laboratory of Information Functional Material for Fujian Higher Education, Quanzhou Normal University"
+version: 1.0.2
+date-released: 2026-09-18
 license: MIT
 repository-code: "https://github.com/buddhassonhonor/exact-sparse-tree-recourse"
-doi: 10.5281/zenodo.21911118
-url: "https://doi.org/10.5281/zenodo.21911118"
+doi: 10.5281/zenodo.21911117
+url: "https://doi.org/10.5281/zenodo.21911117"
