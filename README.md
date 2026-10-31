@@ -109,3 +109,7 @@ No manuscripts, response letters, review notes, API credentials or raw provider 
 ## Version 1.1.1 packaging correction
 
 Adds scripts/mve/run_review_benchmark.py, the module imported by the follow-up experiment scripts. Scientific configurations and saved results are unchanged from v1.1.0. The public archive DOI is supplied by the archive landing page.
+
+## Published Figshare archive
+
+Version v1.1.1 is publicly archived at [10.6084/m9.figshare.34875612.v1](https://doi.org/10.6084/m9.figshare.34875612.v1). This DOI covers the code and generated results in the v1.1.1 release. Original provider datasets are accessed separately. The GitHub repository retains its existing access settings.
