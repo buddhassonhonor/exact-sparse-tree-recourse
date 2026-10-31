@@ -1,6 +1,5 @@
 # Exact Sparse Tree Recourse
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21911117.svg)](https://doi.org/10.5281/zenodo.21911117)
 
 Public artifact for *Diagnosing Projection-and-Repair for Actionability-Constrained Decision-Tree Recourse*.
 
@@ -106,3 +105,7 @@ Independent HiGHS checks use weighted L1 only on both support protocols, remove 
 The noise-tree scaling tests measure computation, not decision utility. Each fitted tree is measured at 20 distinct queries, with one warm-up and nine measured repeats in randomized method order. Timing includes support/anchor selection and excludes fitting and cached bound construction. The largest tree has 14,618 leaves and depth 59. Timing is hardware-dependent.
 
 No manuscripts, response letters, review notes, API credentials or raw provider datasets are included in this artifact.
+
+## Version 1.1.1 packaging correction
+
+Adds scripts/mve/run_review_benchmark.py, the module imported by the follow-up experiment scripts. Scientific configurations and saved results are unchanged from v1.1.0. The public archive DOI is supplied by the archive landing page.
