@@ -1,8 +1,8 @@
 {
   "title": "Diagnosing Projection-and-Repair for Actionability-Constrained Decision-Tree Recourse: Public Artifact",
-  "description": "Code, configuration, aggregate results, figures, actionability policy, and per-query audit records for Diagnosing Projection-and-Repair for Actionability-Constrained Decision-Tree Recourse.",
+  "description": "Reproducible diagnostic benchmark for actionability-constrained single-tree recourse, version 1.1.0. Includes matched leaf/anchor budgets, restore-then-filter and segment-interval mechanisms, support and constraint-density sweeps, numeric-subspace DiCE random/genetic and constrained Growing Spheres, independent HiGHS checks, precision-aware actions, and repeated large-tree timings. Source benchmark datasets are accessed from their original providers and are not redistributed.",
   "upload_type": "software",
-  "version": "v1.0.2",
+  "version": "v1.1.0",
   "license": "MIT",
   "creators": [
     {

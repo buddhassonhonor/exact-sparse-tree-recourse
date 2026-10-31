@@ -1,0 +1,16 @@
+{
+  "args": {
+    "mode": "study",
+    "workers": 4,
+    "max_queries": 200
+  },
+  "seconds": 259.2833559513092,
+  "python": "3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]",
+  "numpy": "2.4.3",
+  "scipy": "1.15.3",
+  "sklearn": "1.9.0",
+  "cpu": "Intel64 Family 6 Model 198 Stepping 2, GenuineIntel",
+  "memory_gb": 33.737986048,
+  "code_sha256": "3687ff848ad6983fdf6d16ac60527944f5c4985c329c02cda1cf0a1557dc5e62",
+  "data_root": "D:\\data"
+}

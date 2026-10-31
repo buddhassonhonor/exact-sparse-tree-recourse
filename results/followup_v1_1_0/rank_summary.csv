@@ -1,0 +1,7 @@
+depth,protocol,median_rank,p90_rank
+5,free_l2,1.0,1.0
+5,immutable_l2,1.0,2.0
+5,immutable_top3_l1,1.0,4.0
+11,free_l2,1.0,1.0
+11,immutable_l2,1.0,3.0
+11,immutable_top3_l1,1.0,7.0

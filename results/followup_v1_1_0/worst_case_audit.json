@@ -1,0 +1,7 @@
+{
+  "query_count": 33,
+  "LF_PRR1_coverage": 0,
+  "Exact_coverage": 1,
+  "bisection_cost_ratio": 4095.99951171875,
+  "interval_oracle_cost": 1.0000001192092896
+}

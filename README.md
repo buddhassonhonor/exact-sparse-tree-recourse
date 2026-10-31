@@ -77,3 +77,32 @@ The per-query data and generated results are released under CC BY 4.0; source co
 ## Citation
 
 The public artifact is archived on Zenodo under Concept DOI [10.5281/zenodo.21911117](https://doi.org/10.5281/zenodo.21911117) (resolving to the latest release). Citation metadata are provided in `CITATION.cff`.
+
+## Version 1.1.0: controlled candidate-search diagnostics
+
+This version distinguishes the original study-designed leaf-first project--restore--repair construction from complete path enumeration. Candidate budgets, support choice, restored-anchor filtering and precision can materially change coverage. In the shared 1,962-query subset per depth/protocol, filtering restored anchors before selection matches Exact coverage; Exact still provides the minimum-cost reference. Small dataset-cluster tests are reported without treating queries as independent datasets.
+
+New results are in results/followup_v1_1_0. CSV files preserve dataset, seed, tree depth, support protocol and query identifiers. Large raw tables are gzip compressed; pandas.read_csv reads them directly. For the primary experiment there are 23,176 query-tree observations and three protocols. Mechanism studies use the first 25 queries from the same sampled, index-ordered lists; support/precision studies use the first 50. External comparisons use eight datasets, three seeds and 20 queries per tree.
+
+To reproduce from provider datasets (RECOURSE_DATA_ROOT as above):
+
+    python scripts/followup_study.py --mode study --workers 4
+    python scripts/followup_study.py --mode dose --workers 4
+    python scripts/followup_external.py
+    python scripts/followup_precision.py
+
+After those quality experiments finish, run timing alone:
+
+    python scripts/followup_scaling.py
+    python scripts/followup_analysis.py
+    python scripts/followup_plot_scaling.py
+
+The scripts write project-owned outputs under exp/followup_20261101. To analyze archived outputs without rerunning experiments, copy the CSVs to that folder and decompress the six large gzip tables there. Keep shared provider files separate from project-owned outputs.
+
+DiCE uses the public generate_counterfactuals API. Genetic initialization has a two-second prediction-call wall-time bound to prevent unbounded random initialization; three timeout records are retained. Random search samples 2,000 points and genetic search has at most 100 iterations, each requesting five alternatives. Certified infeasible bounded supports are recorded as such. The constrained Growing Spheres implementation is an adaptation, not an official implementation claim. Its finite search uses 14 shells and 512 samples each.
+
+Independent HiGHS checks use weighted L1 only on both support protocols, remove impossible leaf/range intersections, and compare optimization objectives to 1e-6. They do not independently validate the L2 solver. MILP tolerances are 1e-10, relative gap 1e-9, and time limit 10 seconds. Actual solver statuses and differences are in milp.csv.
+
+The noise-tree scaling tests measure computation, not decision utility. Each fitted tree is measured at 20 distinct queries, with one warm-up and nine measured repeats in randomized method order. Timing includes support/anchor selection and excludes fitting and cached bound construction. The largest tree has 14,618 leaves and depth 59. Timing is hardware-dependent.
+
+No manuscripts, response letters, review notes, API credentials or raw provider datasets are included in this artifact.

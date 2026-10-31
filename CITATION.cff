@@ -12,8 +12,8 @@ authors:
   - family-names: Ke
     given-names: Yueqian
     affiliation: "Key Laboratory of Information Functional Material for Fujian Higher Education, Quanzhou Normal University"
-version: 1.0.2
-date-released: 2026-09-18
+version: 1.1.0
+date-released: 2026-11-01
 license: MIT
 repository-code: "https://github.com/buddhassonhonor/exact-sparse-tree-recourse"
 doi: 10.5281/zenodo.21911117
