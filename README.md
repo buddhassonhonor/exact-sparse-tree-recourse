@@ -1,5 +1,7 @@
 # Diagnosing LF-PRR Tree Recourse — v1.3.1
 
+Text manifest hashes normalize CRLF to LF; compressed tables and figures use exact-byte hashes. The ZIP SHA256 identifies the complete published attachment. The manifest describes the tagged release; later DOI documentation commits do not change that archived tag.
+
 Current verified archive: [10.6084/m9.figshare.34875666.v2](https://doi.org/10.6084/m9.figshare.34875666.v2), software v1.3.1, commit `14a13dd`.
 
 This release extends the core mechanisms, pool audits, controlled constraint doses and external comparisons to **24 datasets**. Five splits support primary quality, mechanism and dose analyses. External methods use three splits; the longer DiCE budget sensitivity uses one split. Source code is MIT, generated results CC BY 4.0; the vendored CARLA kernel retains its upstream MIT license. The associated manuscript is *Diagnosing LF-PRR Decision-Tree Recourse through Visited Leaves, Candidate Cost, and Action Constraints*.
