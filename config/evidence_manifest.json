@@ -1,6 +1,6 @@
 {
-  "README.md": "445233a098c38ae6591abb3d91c7aa28dd7f4792fcef3e4656df0a446972ac72",
-  "CITATION.cff": "f8b956afaf5df7379d15ef71eb34d5fe001091f57dda611db917ea8d4684386e",
+  "README.md": "02fd88344beeaac2350d0b90dce90546444e2f81dd045a3e13b103ac84fa172c",
+  "CITATION.cff": "7ce37004eea2b22720fa1ef2faf2b3de786ff701f9c1aa6dc8616cd98870767e",
   "requirements.txt": "85989802d53c70fb662092cafed7573ef3de45bb748ad64e70963d2b3ebf3206",
   "scripts/evidence_analysis.py": "15ea1e32e5cc2ed597b77056f7ada3fa3200f0dd3341eeaab38f05cabe0a09f3",
   "scripts/evidence_convergence.py": "c2896dbaf8b4e05ddf3d7d7afff1c5e1b3bc9e126b243a05629763893985fb98",
@@ -12,7 +12,7 @@
   "scripts/evidence_regression.py": "81d3a12b651c0cf6caa8b5da372cd2c42c4ffcb5dc1312ccc131d833f85c2e6d",
   "scripts/evidence_solver.py": "996bd6c589ac253ddb40b1c9a3fc9b2b7b21f43183766f30e00c6a6b715b5d21",
   "scripts/vendor/carla_growing_spheres.py": "02784b8aa41bd646456b1d9f7ab23f2eee5f361ab4bc84894e36c719890530b4",
-  "scripts/vendor/CARLA_LICENSE.txt": "67dc3f15d0341b89d6bd1fb7a3968fa7b95ead6d25409a6f9883ee34de120697",
+  "scripts/vendor/CARLA_LICENSE.txt": "01d5d0ea240d6c89d6e7676c82f84f09126e4c0cedde2fe95e5c0a38dd28f3d5",
   "scripts/vendor/CARLA_provenance.json": "d288c8af32c420dcd87084cec8cde620cf3522ab4eae75fbf23224e0dae8661d",
   "exp/evidence_20261101/convergence.csv.gz": "d3379b40ec798bd208040f3f2394c5df002c4325aadde2da7d1ff8bcd6fce2f0",
   "exp/evidence_20261101/convergence_summary.csv.gz": "e157d3453aad84645fd06a0911a0ff799f6da87ae91c07e68d01d6251d970a9e",
