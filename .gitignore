@@ -17,3 +17,6 @@
 !environment/**
 **/__pycache__/
 **/*.pyc
+
+!exp/
+!exp/**

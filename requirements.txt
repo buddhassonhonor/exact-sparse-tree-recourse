@@ -8,3 +8,8 @@ scikit-learn==1.9.0
 scipy==1.15.3
 
 dice-ml==0.12
+
+numba==0.66.0
+cvxpy==1.8.2
+ecos==2.0.14
+highspy==1.14.0

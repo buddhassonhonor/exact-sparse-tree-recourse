@@ -1,0 +1,829 @@
+[
+  {
+    "dataset": "breast_cancer",
+    "n_seed7": 569,
+    "features": [
+      "mean radius",
+      "mean texture",
+      "mean perimeter",
+      "mean area",
+      "mean smoothness",
+      "mean compactness",
+      "mean concavity",
+      "mean concave points",
+      "mean symmetry",
+      "mean fractal dimension",
+      "radius error",
+      "texture error",
+      "perimeter error",
+      "area error",
+      "smoothness error",
+      "compactness error",
+      "concavity error",
+      "concave points error",
+      "symmetry error",
+      "fractal dimension error",
+      "worst radius",
+      "worst texture",
+      "worst perimeter",
+      "worst area",
+      "worst smoothness",
+      "worst compactness",
+      "worst concavity",
+      "worst concave points",
+      "worst symmetry",
+      "worst fractal dimension"
+    ],
+    "immutable": [
+      "mean radius",
+      "mean texture",
+      "mean perimeter"
+    ],
+    "context14": false
+  },
+  {
+    "dataset": "wine_binary",
+    "n_seed7": 178,
+    "features": [
+      "alcohol",
+      "malic_acid",
+      "ash",
+      "alcalinity_of_ash",
+      "magnesium",
+      "total_phenols",
+      "flavanoids",
+      "nonflavanoid_phenols",
+      "proanthocyanins",
+      "color_intensity",
+      "hue",
+      "od280/od315_of_diluted_wines",
+      "proline"
+    ],
+    "immutable": [
+      "proline"
+    ],
+    "context14": false
+  },
+  {
+    "dataset": "credit_default",
+    "n_seed7": 6000,
+    "features": [
+      "limit_bal",
+      "sex",
+      "education",
+      "marriage",
+      "age",
+      "pay_0",
+      "pay_2",
+      "pay_3",
+      "pay_4",
+      "pay_5",
+      "pay_6",
+      "bill_amt1",
+      "bill_amt2",
+      "bill_amt3",
+      "bill_amt4",
+      "bill_amt5",
+      "bill_amt6",
+      "pay_amt1",
+      "pay_amt2",
+      "pay_amt3",
+      "pay_amt4",
+      "pay_amt5",
+      "pay_amt6"
+    ],
+    "immutable": [
+      "sex",
+      "education",
+      "marriage",
+      "age"
+    ],
+    "context14": true
+  },
+  {
+    "dataset": "adult_income",
+    "n_seed7": 6000,
+    "features": [
+      "age",
+      "fnlwgt",
+      "education_num",
+      "capital_gain",
+      "capital_loss",
+      "hours_per_week"
+    ],
+    "immutable": [
+      "age",
+      "fnlwgt"
+    ],
+    "context14": true
+  },
+  {
+    "dataset": "german_credit",
+    "n_seed7": 1000,
+    "features": [
+      "duration",
+      "credit_amount",
+      "installment_rate",
+      "residence_years",
+      "age",
+      "existing_credits",
+      "dependents"
+    ],
+    "immutable": [
+      "age",
+      "residence_years",
+      "dependents"
+    ],
+    "context14": true
+  },
+  {
+    "dataset": "bank_marketing",
+    "n_seed7": 6000,
+    "features": [
+      "age",
+      "balance",
+      "day",
+      "duration",
+      "campaign",
+      "pdays",
+      "previous"
+    ],
+    "immutable": [
+      "age",
+      "day",
+      "previous"
+    ],
+    "context14": true
+  },
+  {
+    "dataset": "compas",
+    "n_seed7": 6000,
+    "features": [
+      "age",
+      "juv_fel_count",
+      "juv_misd_count",
+      "juv_other_count",
+      "priors_count",
+      "days_b_screening_arrest",
+      "start",
+      "end"
+    ],
+    "immutable": [
+      "age",
+      "juv_fel_count",
+      "juv_misd_count",
+      "juv_other_count",
+      "priors_count"
+    ],
+    "context14": true
+  },
+  {
+    "dataset": "synthetic_overlap",
+    "n_seed7": 1200,
+    "features": [
+      "feature_1",
+      "feature_2",
+      "feature_3",
+      "feature_4",
+      "feature_5",
+      "feature_6",
+      "feature_7",
+      "feature_8",
+      "feature_9",
+      "feature_10",
+      "feature_11",
+      "feature_12",
+      "feature_13",
+      "feature_14",
+      "feature_15",
+      "feature_16"
+    ],
+    "immutable": [
+      "feature_1",
+      "feature_2",
+      "feature_3",
+      "feature_4"
+    ],
+    "context14": false
+  },
+  {
+    "dataset": "openml_29",
+    "n_seed7": 690,
+    "features": [
+      "A2",
+      "A3",
+      "A8",
+      "A11",
+      "A14",
+      "A15"
+    ],
+    "immutable": [
+      "A2"
+    ],
+    "context14": true,
+    "openml_id": 29,
+    "target_column": "class",
+    "positive_label": "+",
+    "labels": [
+      "+",
+      "-"
+    ],
+    "source_url": "https://www.openml.org/d/29"
+  },
+  {
+    "dataset": "openml_37",
+    "n_seed7": 768,
+    "features": [
+      "preg",
+      "plas",
+      "pres",
+      "skin",
+      "insu",
+      "mass",
+      "pedi",
+      "age"
+    ],
+    "immutable": [
+      "preg"
+    ],
+    "context14": true,
+    "openml_id": 37,
+    "target_column": "class",
+    "positive_label": "tested_negative",
+    "labels": [
+      "tested_negative",
+      "tested_positive"
+    ],
+    "source_url": "https://www.openml.org/d/37"
+  },
+  {
+    "dataset": "openml_38",
+    "n_seed7": 3772,
+    "features": [
+      "age",
+      "TSH",
+      "T3",
+      "TT4",
+      "T4U",
+      "FTI"
+    ],
+    "immutable": [
+      "age"
+    ],
+    "context14": true,
+    "openml_id": 38,
+    "target_column": "Class",
+    "positive_label": "negative",
+    "labels": [
+      "negative",
+      "sick"
+    ],
+    "source_url": "https://www.openml.org/d/38"
+  },
+  {
+    "dataset": "openml_40",
+    "n_seed7": 208,
+    "features": [
+      "attribute_1",
+      "attribute_2",
+      "attribute_3",
+      "attribute_4",
+      "attribute_5",
+      "attribute_6",
+      "attribute_7",
+      "attribute_8",
+      "attribute_9",
+      "attribute_10",
+      "attribute_11",
+      "attribute_12",
+      "attribute_13",
+      "attribute_14",
+      "attribute_15",
+      "attribute_16",
+      "attribute_17",
+      "attribute_18",
+      "attribute_19",
+      "attribute_20",
+      "attribute_21",
+      "attribute_22",
+      "attribute_23",
+      "attribute_24",
+      "attribute_25",
+      "attribute_26",
+      "attribute_27",
+      "attribute_28",
+      "attribute_29",
+      "attribute_30",
+      "attribute_31",
+      "attribute_32",
+      "attribute_33",
+      "attribute_34",
+      "attribute_35",
+      "attribute_36",
+      "attribute_37",
+      "attribute_38",
+      "attribute_39",
+      "attribute_40",
+      "attribute_41",
+      "attribute_42",
+      "attribute_43",
+      "attribute_44",
+      "attribute_45",
+      "attribute_46",
+      "attribute_47",
+      "attribute_48",
+      "attribute_49",
+      "attribute_50",
+      "attribute_51",
+      "attribute_52",
+      "attribute_53",
+      "attribute_54",
+      "attribute_55",
+      "attribute_56",
+      "attribute_57",
+      "attribute_58",
+      "attribute_59",
+      "attribute_60"
+    ],
+    "immutable": [
+      "attribute_1",
+      "attribute_2",
+      "attribute_3",
+      "attribute_4",
+      "attribute_5",
+      "attribute_6",
+      "attribute_7",
+      "attribute_8",
+      "attribute_9",
+      "attribute_10",
+      "attribute_11",
+      "attribute_12"
+    ],
+    "context14": false,
+    "openml_id": 40,
+    "target_column": "Class",
+    "positive_label": "Rock",
+    "labels": [
+      "Mine",
+      "Rock"
+    ],
+    "source_url": "https://www.openml.org/d/40"
+  },
+  {
+    "dataset": "openml_44",
+    "n_seed7": 4601,
+    "features": [
+      "word_freq_make",
+      "word_freq_address",
+      "word_freq_all",
+      "word_freq_3d",
+      "word_freq_our",
+      "word_freq_over",
+      "word_freq_remove",
+      "word_freq_internet",
+      "word_freq_order",
+      "word_freq_mail",
+      "word_freq_receive",
+      "word_freq_will",
+      "word_freq_people",
+      "word_freq_report",
+      "word_freq_addresses",
+      "word_freq_free",
+      "word_freq_business",
+      "word_freq_email",
+      "word_freq_you",
+      "word_freq_credit",
+      "word_freq_your",
+      "word_freq_font",
+      "word_freq_000",
+      "word_freq_money",
+      "word_freq_hp",
+      "word_freq_hpl",
+      "word_freq_george",
+      "word_freq_650",
+      "word_freq_lab",
+      "word_freq_labs",
+      "word_freq_telnet",
+      "word_freq_857",
+      "word_freq_data",
+      "word_freq_415",
+      "word_freq_85",
+      "word_freq_technology",
+      "word_freq_1999",
+      "word_freq_parts",
+      "word_freq_pm",
+      "word_freq_direct",
+      "word_freq_cs",
+      "word_freq_meeting",
+      "word_freq_original",
+      "word_freq_project",
+      "word_freq_re",
+      "word_freq_edu",
+      "word_freq_table",
+      "word_freq_conference",
+      "char_freq_%3B",
+      "char_freq_%28",
+      "char_freq_%5B",
+      "char_freq_%21",
+      "char_freq_%24",
+      "char_freq_%23",
+      "capital_run_length_average",
+      "capital_run_length_longest",
+      "capital_run_length_total"
+    ],
+    "immutable": [
+      "word_freq_make",
+      "word_freq_address",
+      "word_freq_all",
+      "word_freq_3d",
+      "word_freq_our",
+      "word_freq_over",
+      "word_freq_remove",
+      "word_freq_internet",
+      "word_freq_order",
+      "word_freq_mail",
+      "word_freq_receive"
+    ],
+    "context14": false,
+    "openml_id": 44,
+    "target_column": "class",
+    "positive_label": "1",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "source_url": "https://www.openml.org/d/44"
+  },
+  {
+    "dataset": "openml_49",
+    "n_seed7": 303,
+    "features": [
+      "age",
+      "trestbps",
+      "chol",
+      "thalach",
+      "oldpeak",
+      "ca"
+    ],
+    "immutable": [
+      "age"
+    ],
+    "context14": true,
+    "openml_id": 49,
+    "target_column": "num",
+    "positive_label": ">50_1",
+    "labels": [
+      "<50",
+      ">50_1"
+    ],
+    "source_url": "https://www.openml.org/d/49"
+  },
+  {
+    "dataset": "openml_59",
+    "n_seed7": 351,
+    "features": [
+      "a01",
+      "a02",
+      "a03",
+      "a04",
+      "a05",
+      "a06",
+      "a07",
+      "a08",
+      "a09",
+      "a10",
+      "a11",
+      "a12",
+      "a13",
+      "a14",
+      "a15",
+      "a16",
+      "a17",
+      "a18",
+      "a19",
+      "a20",
+      "a21",
+      "a22",
+      "a23",
+      "a24",
+      "a25",
+      "a26",
+      "a27",
+      "a28",
+      "a29",
+      "a30",
+      "a31",
+      "a32",
+      "a33",
+      "a34"
+    ],
+    "immutable": [
+      "a01",
+      "a02",
+      "a03",
+      "a04",
+      "a05",
+      "a06"
+    ],
+    "context14": false,
+    "openml_id": 59,
+    "target_column": "class",
+    "positive_label": "g",
+    "labels": [
+      "b",
+      "g"
+    ],
+    "source_url": "https://www.openml.org/d/59"
+  },
+  {
+    "dataset": "openml_1462",
+    "n_seed7": 1372,
+    "features": [
+      "V1",
+      "V2",
+      "V3",
+      "V4"
+    ],
+    "immutable": [
+      "V1"
+    ],
+    "context14": false,
+    "openml_id": 1462,
+    "target_column": "Class",
+    "positive_label": "2",
+    "labels": [
+      "1",
+      "2"
+    ],
+    "source_url": "https://www.openml.org/d/1462"
+  },
+  {
+    "dataset": "openml_1464",
+    "n_seed7": 748,
+    "features": [
+      "V1",
+      "V2",
+      "V3",
+      "V4"
+    ],
+    "immutable": [
+      "V1"
+    ],
+    "context14": true,
+    "openml_id": 1464,
+    "target_column": "Class",
+    "positive_label": "1",
+    "labels": [
+      "1",
+      "2"
+    ],
+    "source_url": "https://www.openml.org/d/1464"
+  },
+  {
+    "dataset": "openml_1480",
+    "n_seed7": 583,
+    "features": [
+      "V1",
+      "V3",
+      "V4",
+      "V5",
+      "V6",
+      "V7",
+      "V8",
+      "V9",
+      "V10"
+    ],
+    "immutable": [
+      "V1"
+    ],
+    "context14": true,
+    "openml_id": 1480,
+    "target_column": "Class",
+    "positive_label": "2",
+    "labels": [
+      "1",
+      "2"
+    ],
+    "source_url": "https://www.openml.org/d/1480"
+  },
+  {
+    "dataset": "openml_1489",
+    "n_seed7": 5404,
+    "features": [
+      "V1",
+      "V2",
+      "V3",
+      "V4",
+      "V5"
+    ],
+    "immutable": [
+      "V1"
+    ],
+    "context14": false,
+    "openml_id": 1489,
+    "target_column": "Class",
+    "positive_label": "2",
+    "labels": [
+      "1",
+      "2"
+    ],
+    "source_url": "https://www.openml.org/d/1489"
+  },
+  {
+    "dataset": "openml_1494",
+    "n_seed7": 1055,
+    "features": [
+      "V1",
+      "V2",
+      "V3",
+      "V4",
+      "V5",
+      "V6",
+      "V7",
+      "V8",
+      "V9",
+      "V10",
+      "V11",
+      "V12",
+      "V13",
+      "V14",
+      "V15",
+      "V16",
+      "V17",
+      "V18",
+      "V19",
+      "V20",
+      "V21",
+      "V22",
+      "V23",
+      "V24",
+      "V25",
+      "V26",
+      "V27",
+      "V28",
+      "V29",
+      "V30",
+      "V31",
+      "V32",
+      "V33",
+      "V34",
+      "V35",
+      "V36",
+      "V37",
+      "V38",
+      "V39",
+      "V40",
+      "V41"
+    ],
+    "immutable": [
+      "V1",
+      "V2",
+      "V3",
+      "V4",
+      "V5",
+      "V6",
+      "V7",
+      "V8"
+    ],
+    "context14": false,
+    "openml_id": 1494,
+    "target_column": "Class",
+    "positive_label": "2",
+    "labels": [
+      "1",
+      "2"
+    ],
+    "source_url": "https://www.openml.org/d/1494"
+  },
+  {
+    "dataset": "openml_40701",
+    "n_seed7": 5000,
+    "features": [
+      "state",
+      "account_length",
+      "phone_number",
+      "number_vmail_messages",
+      "total_day_minutes",
+      "total_day_calls",
+      "total_day_charge",
+      "total_eve_minutes",
+      "total_eve_calls",
+      "total_eve_charge",
+      "total_night_minutes",
+      "total_night_calls",
+      "total_night_charge",
+      "total_intl_minutes",
+      "total_intl_calls",
+      "total_intl_charge"
+    ],
+    "immutable": [
+      "state",
+      "account_length",
+      "phone_number"
+    ],
+    "context14": true,
+    "openml_id": 40701,
+    "target_column": "class",
+    "positive_label": "0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "source_url": "https://www.openml.org/d/40701"
+  },
+  {
+    "dataset": "openml_40983",
+    "n_seed7": 4839,
+    "features": [
+      "GLCM_Pan",
+      "Mean_G",
+      "Mean_R",
+      "Mean_NIR",
+      "SD_Plan"
+    ],
+    "immutable": [
+      "GLCM_Pan"
+    ],
+    "context14": false,
+    "openml_id": 40983,
+    "target_column": "class",
+    "positive_label": "2",
+    "labels": [
+      "1",
+      "2"
+    ],
+    "source_url": "https://www.openml.org/d/40983"
+  },
+  {
+    "dataset": "openml_44089",
+    "n_seed7": 6000,
+    "features": [
+      "RevolvingUtilizationOfUnsecuredLines",
+      "age",
+      "NumberOfTime30-59DaysPastDueNotWorse",
+      "DebtRatio",
+      "MonthlyIncome",
+      "NumberOfOpenCreditLinesAndLoans",
+      "NumberOfTimes90DaysLate",
+      "NumberRealEstateLoansOrLines",
+      "NumberOfTime60-89DaysPastDueNotWorse",
+      "NumberOfDependents"
+    ],
+    "immutable": [
+      "RevolvingUtilizationOfUnsecuredLines",
+      "age"
+    ],
+    "context14": true,
+    "openml_id": 44089,
+    "target_column": "SeriousDlqin2yrs",
+    "positive_label": "0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "source_url": "https://www.openml.org/d/44089"
+  },
+  {
+    "dataset": "openml_45023",
+    "n_seed7": 6000,
+    "features": [
+      "ExternalRiskEstimate",
+      "MSinceOldestTradeOpen",
+      "MSinceMostRecentTradeOpen",
+      "AverageMInFile",
+      "NumSatisfactoryTrades",
+      "NumTrades60Ever2DerogPubRec",
+      "NumTrades90Ever2DerogPubRec",
+      "PercentTradesNeverDelq",
+      "MSinceMostRecentDelq",
+      "MaxDelq2PublicRecLast12M",
+      "NumTotalTrades",
+      "NumTradesOpeninLast12M",
+      "PercentInstallTrades",
+      "MSinceMostRecentInqexcl7days",
+      "NumInqLast6M",
+      "NumInqLast6Mexcl7days",
+      "NetFractionRevolvingBurden",
+      "NetFractionInstallBurden",
+      "NumRevolvingTradesWBalance",
+      "NumInstallTradesWBalance",
+      "NumBank2NatlTradesWHighUtilization",
+      "PercentTradesWBalance"
+    ],
+    "immutable": [
+      "ExternalRiskEstimate",
+      "MSinceOldestTradeOpen",
+      "MSinceMostRecentTradeOpen",
+      "AverageMInFile"
+    ],
+    "context14": true,
+    "openml_id": 45023,
+    "target_column": "RiskPerformance",
+    "positive_label": "1",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "source_url": "https://www.openml.org/d/45023"
+  }
+]

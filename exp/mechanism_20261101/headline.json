@@ -1,0 +1,90 @@
+{
+  "headline": "Across 24 datasets and five splits, LF-PRR20 coverage is 0.888/0.573 under Immutable/top-3, versus 0.918/0.625 for Exact.",
+  "summary": [
+    {
+      "protocol": "immutable_l2",
+      "method": "lf_prr1",
+      "coverage": 0.7907326578171583,
+      "pooled": 0.808677312443507,
+      "conditional_cost": 0.6779291853580963
+    },
+    {
+      "protocol": "immutable_l2",
+      "method": "lf_prr20",
+      "coverage": 0.8884507577654143,
+      "pooled": 0.9063975092899468,
+      "conditional_cost": 0.7235132472855779
+    },
+    {
+      "protocol": "immutable_l2",
+      "method": "leaves10",
+      "coverage": 0.9134253190464272,
+      "pooled": 0.9349201566736969,
+      "conditional_cost": 0.558855997974772
+    },
+    {
+      "protocol": "immutable_l2",
+      "method": "filter_first",
+      "coverage": 0.9175919857130937,
+      "pooled": 0.9399417495229487,
+      "conditional_cost": 0.8797507459661812
+    },
+    {
+      "protocol": "immutable_l2",
+      "method": "exact",
+      "coverage": 0.9175919857130937,
+      "pooled": 0.9399417495229487,
+      "conditional_cost": 0.564782085819093
+    },
+    {
+      "protocol": "immutable_l2",
+      "method": "native",
+      "coverage": 0.9175919857130937,
+      "pooled": 0.9399417495229487,
+      "conditional_cost": 0.564782085819093
+    },
+    {
+      "protocol": "immutable_top3_l1",
+      "method": "lf_prr1",
+      "coverage": 0.4612869950367955,
+      "pooled": 0.47765391182082956,
+      "conditional_cost": 0.9956011186669413
+    },
+    {
+      "protocol": "immutable_top3_l1",
+      "method": "lf_prr20",
+      "coverage": 0.5732491973990304,
+      "pooled": 0.5905393190720096,
+      "conditional_cost": 1.0190415536258393
+    },
+    {
+      "protocol": "immutable_top3_l1",
+      "method": "leaves10",
+      "coverage": 0.6193142969344619,
+      "pooled": 0.6419604298483479,
+      "conditional_cost": 0.809516894494875
+    },
+    {
+      "protocol": "immutable_top3_l1",
+      "method": "filter_first",
+      "coverage": 0.6249770331969723,
+      "pooled": 0.6485889324093602,
+      "conditional_cost": 1.351805434571158
+    },
+    {
+      "protocol": "immutable_top3_l1",
+      "method": "exact",
+      "coverage": 0.6249770331969723,
+      "pooled": 0.6485889324093602,
+      "conditional_cost": 0.84009175303565
+    },
+    {
+      "protocol": "immutable_top3_l1",
+      "method": "native",
+      "coverage": 0.9173419857130938,
+      "pooled": 0.9396404539519936,
+      "conditional_cost": 0.6208570789804191
+    }
+  ],
+  "mechanism_queries": 1507
+}

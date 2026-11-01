@@ -1,0 +1,37 @@
+{
+  "python": "3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]",
+  "executable": "python.exe",
+  "cpu": "Intel64 Family 6 Model 198 Stepping 2, GenuineIntel",
+  "memory_gb": 33.737986048,
+  "gpu_used": false,
+  "reason": "CPU tree traversal and small tabular optimization",
+  "packages": {
+    "numpy": "2.4.3",
+    "pandas": "2.3.3",
+    "scipy": "1.15.3",
+    "scikit-learn": "1.9.0",
+    "numba": "0.66.0",
+    "cvxpy": "1.8.2",
+    "ecos": "2.0.14",
+    "highspy": "1.14.0",
+    "dice-ml": "0.12",
+    "joblib": "1.5.3"
+  },
+  "seeds": [
+    7,
+    13,
+    19,
+    29,
+    37
+  ],
+  "depths": [
+    3,
+    5,
+    7,
+    9,
+    11,
+    20
+  ],
+  "quality_query_cap": 100,
+  "mechanism_query_cap": 40
+}

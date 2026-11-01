@@ -1,3 +1,38 @@
+# Diagnosing LF-PRR Tree Recourse
+
+Current software release: **v1.2.0**. Associated paper: *Diagnosing LF-PRR Decision-Tree Recourse through Visited Leaves, Candidate Cost, and Action Constraints*.
+
+This release adds 24-dataset coverage/depth/budget comparisons, anchor completeness stress tests, paired segment/within-leaf/leaf-choice cost decomposition, leaf polishing and a constructed counterexample, constraint-pruned DFS, aligned DiCE proximity and path tweaking, raw-tree MILP/MISOCP, directed grids, feature-specific direction sensitivity and isolated 55-tree timings. Five seeds are used for the broadened quality study; inference clusters datasets. Earlier v1.1.1 code/results and DOI are retained as the baseline, not claimed to contain these additions.
+
+## Reproduce v1.2.0
+
+Install requirements, set RECOURSE_DATA_ROOT to provider data, then run:
+
+    python scripts/mechanism_breadth.py
+    python scripts/mechanism_decomposition.py
+    python scripts/mechanism_external.py
+    python scripts/mechanism_solver.py
+    python scripts/mechanism_practical.py
+    python scripts/mechanism_polish_counterexample.py
+
+After all quality jobs finish, run timing alone:
+
+    python scripts/mechanism_latency.py
+    python scripts/mechanism_large_budgets.py
+
+For analysis of archived observations without rerunning models:
+
+    python scripts/expand_mechanism_results.py
+    python scripts/mechanism_assets.py
+
+The analysis script regenerates statistics/figures and optional LaTeX tables; manuscript source is not distributed. The historical iteration table is kept in the original archive and is not needed for the new numeric analyses. New output files are in exp/mechanism_20261101. Query outcomes are compressed CSVs; read with pandas directly or use the expansion helper. Actual external loss values and solver statuses are included. Provider records and returned full feature vectors are not redistributed.
+
+The 16 additional OpenML IDs and frozen numeric columns/labels are in config/mechanism_datasets.json. The loader uses the same OpenML cache convention under RECOURSE_DATA_ROOT: openml/org/openml/www/datasets/ID/dataset_ID.pq. These public provider datasets must be obtained separately under their terms. Numeric missing values use training medians; the new-task frozen-coordinate policy is index based and diagnostic, not a validated domain intervention. Class 1 is the frozen model target; it is not automatically favorable clinically or financially.
+
+Genetic DiCE's adapted loss is exactly the shared weighted L1/scaled L2 cost with diversity and sparsity penalties disabled; defaults are retained separately. A two-second prediction-call deadline yields six failures in the recorded comparison. MISOCP uses ECOS_BB and MILP uses HiGHS, encoded from raw nodes independently of cached boxes. Raw solver values can be invalid at one-ulp boundaries; the selected path is reconstructed and validated, with raw validity disclosed. Global interval timing has the explicit A*N+ <= 10,000 workspace gate; larger configurations are unmeasured. KD-tree query complexity can degrade in high dimension. Coordinate-storage counts are not peak process RSS.
+
+The real-data direction policies are declared sensitivities; retrospective credit payment values cannot be edited as a real intervention. Independent-label noise-tree scaling measures computation only. Causal effects and human outcomes are not evaluated.
+
 # Exact Sparse Tree Recourse
 
 
@@ -75,7 +110,7 @@ The per-query data and generated results are released under CC BY 4.0; source co
 
 ## Citation
 
-The public artifact is archived on Zenodo under Concept DOI [10.5281/zenodo.21911117](https://doi.org/10.5281/zenodo.21911117) (resolving to the latest release). Citation metadata are provided in `CITATION.cff`.
+The baseline v1.1.1 artifact is archived on Figshare at [10.6084/m9.figshare.34875612.v1](https://doi.org/10.6084/m9.figshare.34875612.v1). Citation metadata identify the current release. Historical Zenodo archives remain historical and do not cover the current mechanism study.
 
 ## Version 1.1.0: controlled candidate-search diagnostics
 
@@ -112,4 +147,4 @@ Adds scripts/mve/run_review_benchmark.py, the module imported by the follow-up e
 
 ## Published Figshare archive
 
-Version v1.1.1 is publicly archived at [10.6084/m9.figshare.34875612.v1](https://doi.org/10.6084/m9.figshare.34875612.v1). This DOI covers the code and generated results in the v1.1.1 release. Original provider datasets are accessed separately. The GitHub repository retains its existing access settings.
+Version v1.1.1 is publicly archived at [10.6084/m9.figshare.34875612.v1](https://doi.org/10.6084/m9.figshare.34875612.v1). This DOI covers the code and generated results in the v1.1.1 release. Original provider datasets are accessed separately. The GitHub repository is public for reviewing and reusing the artifact.

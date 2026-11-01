@@ -1,0 +1,611 @@
+{
+  "fit_seconds": 0.05514990002848208,
+  "cache_ms": 6.2550000147894025,
+  "index_ms": 0.4048999398946762,
+  "raw_index_ms": 0.2741999924182892,
+  "cache_bytes": 56320,
+  "index_data_bytes": 626240,
+  "global_gate": 10000,
+  "queries": [
+    {
+      "query": 761,
+      "support_ms": 0.09370001498609781,
+      "visited": 51,
+      "stratum": "repair_feasible"
+    },
+    {
+      "query": 1915,
+      "support_ms": 0.08100003469735384,
+      "visited": 33,
+      "stratum": "repair_feasible"
+    },
+    {
+      "query": 1035,
+      "support_ms": 0.08899997919797897,
+      "visited": 43,
+      "stratum": "repair_feasible"
+    },
+    {
+      "query": 118,
+      "support_ms": 0.08619995787739754,
+      "visited": 37,
+      "stratum": "repair_feasible"
+    },
+    {
+      "query": 359,
+      "support_ms": 0.09019998833537102,
+      "visited": 41,
+      "stratum": "direct"
+    },
+    {
+      "query": 1510,
+      "support_ms": 0.06390002090483904,
+      "visited": 41,
+      "stratum": "repair_feasible"
+    },
+    {
+      "query": 1213,
+      "support_ms": 0.08139992132782936,
+      "visited": 35,
+      "stratum": "infeasible"
+    },
+    {
+      "query": 808,
+      "support_ms": 0.07639999967068434,
+      "visited": 67,
+      "stratum": "repair_feasible"
+    },
+    {
+      "query": 702,
+      "support_ms": 0.09410001803189516,
+      "visited": 21,
+      "stratum": "infeasible"
+    },
+    {
+      "query": 1436,
+      "support_ms": 0.09200000204145908,
+      "visited": 65,
+      "stratum": "repair_feasible"
+    },
+    {
+      "query": 519,
+      "support_ms": 0.10279996786266565,
+      "visited": 21,
+      "stratum": "infeasible"
+    },
+    {
+      "query": 22,
+      "support_ms": 0.07140007801353931,
+      "visited": 75,
+      "stratum": "repair_feasible"
+    },
+    {
+      "query": 850,
+      "support_ms": 0.05609996151179075,
+      "visited": 51,
+      "stratum": "repair_feasible"
+    },
+    {
+      "query": 967,
+      "support_ms": 0.07049995474517345,
+      "visited": 43,
+      "stratum": "repair_feasible"
+    },
+    {
+      "query": 864,
+      "support_ms": 0.08180004078894854,
+      "visited": 37,
+      "stratum": "repair_feasible"
+    },
+    {
+      "query": 1445,
+      "support_ms": 0.10510010179132223,
+      "visited": 49,
+      "stratum": "repair_feasible"
+    },
+    {
+      "query": 376,
+      "support_ms": 0.0833999365568161,
+      "visited": 31,
+      "stratum": "repair_feasible"
+    },
+    {
+      "query": 1210,
+      "support_ms": 0.0841999426484108,
+      "visited": 65,
+      "stratum": "repair_feasible"
+    },
+    {
+      "query": 1997,
+      "support_ms": 0.0681999372318387,
+      "visited": 19,
+      "stratum": "infeasible"
+    },
+    {
+      "query": 863,
+      "support_ms": 0.06719992961734533,
+      "visited": 79,
+      "stratum": "direct"
+    },
+    {
+      "query": 453,
+      "support_ms": 0.05719996988773346,
+      "visited": 33,
+      "stratum": "repair_feasible"
+    },
+    {
+      "query": 1176,
+      "support_ms": 0.06919994484633207,
+      "visited": 83,
+      "stratum": "repair_feasible"
+    },
+    {
+      "query": 493,
+      "support_ms": 0.08030002936720848,
+      "visited": 45,
+      "stratum": "repair_feasible"
+    },
+    {
+      "query": 147,
+      "support_ms": 0.07869990076869726,
+      "visited": 77,
+      "stratum": "repair_feasible"
+    },
+    {
+      "query": 242,
+      "support_ms": 0.08140003774315119,
+      "visited": 57,
+      "stratum": "repair_feasible"
+    },
+    {
+      "query": 753,
+      "support_ms": 0.08240004535764456,
+      "visited": 31,
+      "stratum": "repair_feasible"
+    },
+    {
+      "query": 1703,
+      "support_ms": 0.07069995626807213,
+      "visited": 77,
+      "stratum": "repair_feasible"
+    },
+    {
+      "query": 1967,
+      "support_ms": 0.09280000813305378,
+      "visited": 49,
+      "stratum": "repair_feasible"
+    },
+    {
+      "query": 902,
+      "support_ms": 0.0817000400274992,
+      "visited": 39,
+      "stratum": "repair_feasible"
+    },
+    {
+      "query": 347,
+      "support_ms": 0.08320005144923925,
+      "visited": 35,
+      "stratum": "repair_feasible"
+    },
+    {
+      "query": 149,
+      "support_ms": 0.08059991523623466,
+      "visited": 35,
+      "stratum": "direct"
+    },
+    {
+      "query": 1888,
+      "support_ms": 0.059699988923966885,
+      "visited": 43,
+      "stratum": "direct"
+    },
+    {
+      "query": 682,
+      "support_ms": 0.05479995161294937,
+      "visited": 73,
+      "stratum": "repair_feasible"
+    },
+    {
+      "query": 85,
+      "support_ms": 0.08230004459619522,
+      "visited": 61,
+      "stratum": "direct"
+    },
+    {
+      "query": 463,
+      "support_ms": 0.07349997758865356,
+      "visited": 39,
+      "stratum": "repair_feasible"
+    },
+    {
+      "query": 1500,
+      "support_ms": 0.08579995483160019,
+      "visited": 15,
+      "stratum": "repair_feasible"
+    },
+    {
+      "query": 1434,
+      "support_ms": 0.08679996244609356,
+      "visited": 37,
+      "stratum": "infeasible"
+    },
+    {
+      "query": 1996,
+      "support_ms": 0.13669999316334724,
+      "visited": 27,
+      "stratum": "repair_feasible"
+    },
+    {
+      "query": 1712,
+      "support_ms": 0.08809997234493494,
+      "visited": 41,
+      "stratum": "repair_feasible"
+    },
+    {
+      "query": 1103,
+      "support_ms": 0.08619995787739754,
+      "visited": 31,
+      "stratum": "repair_feasible"
+    },
+    {
+      "query": 452,
+      "support_ms": 0.07740000728517771,
+      "visited": 41,
+      "stratum": "repair_feasible"
+    },
+    {
+      "query": 842,
+      "support_ms": 0.07319997530430555,
+      "visited": 61,
+      "stratum": "repair_feasible"
+    },
+    {
+      "query": 1346,
+      "support_ms": 0.1417999155819416,
+      "visited": 21,
+      "stratum": "infeasible"
+    },
+    {
+      "query": 1554,
+      "support_ms": 0.10359997395426035,
+      "visited": 41,
+      "stratum": "infeasible"
+    },
+    {
+      "query": 1779,
+      "support_ms": 0.08939998224377632,
+      "visited": 35,
+      "stratum": "repair_feasible"
+    },
+    {
+      "query": 728,
+      "support_ms": 0.07830001413822174,
+      "visited": 79,
+      "stratum": "direct"
+    },
+    {
+      "query": 1428,
+      "support_ms": 0.054699950851500034,
+      "visited": 41,
+      "stratum": "repair_feasible"
+    },
+    {
+      "query": 467,
+      "support_ms": 0.0754001084715128,
+      "visited": 59,
+      "stratum": "repair_feasible"
+    },
+    {
+      "query": 1974,
+      "support_ms": 0.06829993799328804,
+      "visited": 41,
+      "stratum": "repair_feasible"
+    },
+    {
+      "query": 195,
+      "support_ms": 0.09430001955479383,
+      "visited": 43,
+      "stratum": "repair_feasible"
+    },
+    {
+      "query": 1131,
+      "support_ms": 0.07179996464401484,
+      "visited": 53,
+      "stratum": "repair_feasible"
+    },
+    {
+      "query": 460,
+      "support_ms": 0.07950002327561378,
+      "visited": 27,
+      "stratum": "infeasible"
+    },
+    {
+      "query": 2016,
+      "support_ms": 0.06610003765672445,
+      "visited": 57,
+      "stratum": "repair_feasible"
+    },
+    {
+      "query": 1191,
+      "support_ms": 0.07589999586343765,
+      "visited": 43,
+      "stratum": "repair_feasible"
+    },
+    {
+      "query": 1981,
+      "support_ms": 0.08699996396899223,
+      "visited": 57,
+      "stratum": "repair_feasible"
+    },
+    {
+      "query": 1869,
+      "support_ms": 0.059999991208314896,
+      "visited": 75,
+      "stratum": "repair_feasible"
+    },
+    {
+      "query": 7,
+      "support_ms": 0.06679992657154799,
+      "visited": 73,
+      "stratum": "direct"
+    },
+    {
+      "query": 1427,
+      "support_ms": 0.05639996379613876,
+      "visited": 81,
+      "stratum": "repair_feasible"
+    },
+    {
+      "query": 1119,
+      "support_ms": 0.0852999510243535,
+      "visited": 51,
+      "stratum": "direct"
+    },
+    {
+      "query": 1794,
+      "support_ms": 0.06420002318918705,
+      "visited": 23,
+      "stratum": "direct"
+    },
+    {
+      "query": 1770,
+      "support_ms": 0.05010003224015236,
+      "visited": 51,
+      "stratum": "repair_feasible"
+    },
+    {
+      "query": 1316,
+      "support_ms": 0.05850009620189667,
+      "visited": 73,
+      "stratum": "direct"
+    },
+    {
+      "query": 1122,
+      "support_ms": 0.053600058890879154,
+      "visited": 49,
+      "stratum": "repair_feasible"
+    },
+    {
+      "query": 1667,
+      "support_ms": 0.07539999205619097,
+      "visited": 35,
+      "stratum": "repair_feasible"
+    },
+    {
+      "query": 448,
+      "support_ms": 0.08430005982518196,
+      "visited": 63,
+      "stratum": "repair_feasible"
+    },
+    {
+      "query": 590,
+      "support_ms": 0.09139999747276306,
+      "visited": 47,
+      "stratum": "repair_feasible"
+    },
+    {
+      "query": 1627,
+      "support_ms": 0.0863000750541687,
+      "visited": 37,
+      "stratum": "direct"
+    },
+    {
+      "query": 1638,
+      "support_ms": 0.08320005144923925,
+      "visited": 35,
+      "stratum": "repair_feasible"
+    },
+    {
+      "query": 572,
+      "support_ms": 0.0828000484034419,
+      "visited": 23,
+      "stratum": "infeasible"
+    },
+    {
+      "query": 1076,
+      "support_ms": 0.08480006363242865,
+      "visited": 85,
+      "stratum": "repair_feasible"
+    },
+    {
+      "query": 647,
+      "support_ms": 0.09200000204145908,
+      "visited": 33,
+      "stratum": "repair_feasible"
+    },
+    {
+      "query": 2073,
+      "support_ms": 0.09119999594986439,
+      "visited": 61,
+      "stratum": "repair_feasible"
+    },
+    {
+      "query": 735,
+      "support_ms": 0.09920005686581135,
+      "visited": 77,
+      "stratum": "repair_feasible"
+    },
+    {
+      "query": 61,
+      "support_ms": 0.09159999899566174,
+      "visited": 67,
+      "stratum": "direct"
+    },
+    {
+      "query": 446,
+      "support_ms": 0.07409998215734959,
+      "visited": 57,
+      "stratum": "repair_feasible"
+    },
+    {
+      "query": 1059,
+      "support_ms": 0.08719996549189091,
+      "visited": 89,
+      "stratum": "repair_feasible"
+    },
+    {
+      "query": 2030,
+      "support_ms": 0.09129999671131372,
+      "visited": 49,
+      "stratum": "repair_feasible"
+    },
+    {
+      "query": 1146,
+      "support_ms": 0.09190000128000975,
+      "visited": 57,
+      "stratum": "direct"
+    },
+    {
+      "query": 613,
+      "support_ms": 0.0610999995842576,
+      "visited": 41,
+      "stratum": "repair_feasible"
+    },
+    {
+      "query": 443,
+      "support_ms": 0.08549995254725218,
+      "visited": 25,
+      "stratum": "repair_feasible"
+    },
+    {
+      "query": 1525,
+      "support_ms": 0.08569995407015085,
+      "visited": 15,
+      "stratum": "infeasible"
+    },
+    {
+      "query": 945,
+      "support_ms": 0.08310005068778992,
+      "visited": 47,
+      "stratum": "infeasible"
+    },
+    {
+      "query": 1840,
+      "support_ms": 0.08779997006058693,
+      "visited": 71,
+      "stratum": "repair_feasible"
+    },
+    {
+      "query": 514,
+      "support_ms": 0.08400005754083395,
+      "visited": 43,
+      "stratum": "direct"
+    },
+    {
+      "query": 551,
+      "support_ms": 0.052200048230588436,
+      "visited": 65,
+      "stratum": "repair_feasible"
+    },
+    {
+      "query": 84,
+      "support_ms": 0.052699935622513294,
+      "visited": 65,
+      "stratum": "direct"
+    },
+    {
+      "query": 1158,
+      "support_ms": 0.05830009467899799,
+      "visited": 35,
+      "stratum": "repair_feasible"
+    },
+    {
+      "query": 1710,
+      "support_ms": 0.07400009781122208,
+      "visited": 51,
+      "stratum": "repair_feasible"
+    },
+    {
+      "query": 1126,
+      "support_ms": 0.06429990753531456,
+      "visited": 47,
+      "stratum": "repair_feasible"
+    },
+    {
+      "query": 1848,
+      "support_ms": 0.06450002547353506,
+      "visited": 47,
+      "stratum": "repair_feasible"
+    },
+    {
+      "query": 1350,
+      "support_ms": 0.06420002318918705,
+      "visited": 55,
+      "stratum": "repair_feasible"
+    },
+    {
+      "query": 33,
+      "support_ms": 0.07229996845126152,
+      "visited": 49,
+      "stratum": "repair_feasible"
+    },
+    {
+      "query": 1728,
+      "support_ms": 0.06910006050020456,
+      "visited": 49,
+      "stratum": "infeasible"
+    },
+    {
+      "query": 619,
+      "support_ms": 0.05359994247555733,
+      "visited": 45,
+      "stratum": "infeasible"
+    },
+    {
+      "query": 1654,
+      "support_ms": 0.13339996803551912,
+      "visited": 75,
+      "stratum": "repair_feasible"
+    },
+    {
+      "query": 1502,
+      "support_ms": 0.10289996862411499,
+      "visited": 91,
+      "stratum": "repair_feasible"
+    },
+    {
+      "query": 398,
+      "support_ms": 0.139000010676682,
+      "visited": 63,
+      "stratum": "repair_feasible"
+    },
+    {
+      "query": 1259,
+      "support_ms": 0.09250000584870577,
+      "visited": 17,
+      "stratum": "infeasible"
+    },
+    {
+      "query": 1403,
+      "support_ms": 0.089599983766675,
+      "visited": 57,
+      "stratum": "repair_feasible"
+    },
+    {
+      "query": 769,
+      "support_ms": 0.089899986051023,
+      "visited": 63,
+      "stratum": "repair_feasible"
+    }
+  ]
+}

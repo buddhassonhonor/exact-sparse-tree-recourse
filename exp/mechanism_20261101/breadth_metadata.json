@@ -1,0 +1,63 @@
+{
+  "datasets": [
+    "breast_cancer",
+    "wine_binary",
+    "credit_default",
+    "adult_income",
+    "german_credit",
+    "bank_marketing",
+    "compas",
+    "synthetic_overlap",
+    "openml_29",
+    "openml_37",
+    "openml_38",
+    "openml_40",
+    "openml_44",
+    "openml_49",
+    "openml_59",
+    "openml_1462",
+    "openml_1464",
+    "openml_1480",
+    "openml_1489",
+    "openml_1494",
+    "openml_40701",
+    "openml_40983",
+    "openml_44089",
+    "openml_45023"
+  ],
+  "decision": [
+    "credit_default",
+    "adult_income",
+    "german_credit",
+    "bank_marketing",
+    "compas",
+    "openml_29",
+    "openml_37",
+    "openml_38",
+    "openml_49",
+    "openml_1464",
+    "openml_1480",
+    "openml_40701",
+    "openml_44089",
+    "openml_45023"
+  ],
+  "seeds": [
+    7,
+    13,
+    19,
+    29,
+    37
+  ],
+  "depths": [
+    3,
+    5,
+    7,
+    9,
+    11,
+    20
+  ],
+  "max_queries": 100,
+  "seconds": 156.21433019638062,
+  "sklearn": "1.9.0",
+  "cpu": "Intel64 Family 6 Model 198 Stepping 2, GenuineIntel"
+}
