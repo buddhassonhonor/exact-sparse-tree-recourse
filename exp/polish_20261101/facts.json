@@ -1,0 +1,16 @@
+{
+  "primary_queries_per_protocol": 9957,
+  "primary_LF20": 0.5732491973990305,
+  "primary_fixed": 0.6249770331969723,
+  "primary_joint": 0.9173419857130939,
+  "nearest_specific_ratio": 5.651985009737337,
+  "timing_exact_faster_counts": {
+    "immutable_l2": 24,
+    "immutable_top3_l1": 24
+  },
+  "support_min": 0.5663779225584428,
+  "support_max": 0.8732791396444339,
+  "support_native": 0.9173419857130938,
+  "engine_reduction_min": 0.07367180072143942,
+  "engine_reduction_max": 0.5927204206766857
+}

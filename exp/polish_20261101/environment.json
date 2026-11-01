@@ -1,0 +1,33 @@
+{
+  "python": "3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "cpu": "Intel64 Family 6 Model 198 Stepping 2, GenuineIntel",
+  "gpu_used": false,
+  "reason": "CPU tree projection and tabular sampling",
+  "quality_workers": 3,
+  "threads_per_worker": 1,
+  "carla_python_hash_seed": 0,
+  "packages": {
+    "numpy": "2.4.3",
+    "pandas": "2.3.3",
+    "scipy": "1.15.3",
+    "scikit-learn": "1.9.0",
+    "dice-ml": "0.12",
+    "joblib": "1.5.3"
+  },
+  "support_seeds": [
+    7,
+    13,
+    19,
+    29,
+    37
+  ],
+  "external_seeds": [
+    7,
+    13,
+    19
+  ],
+  "support_query_cap": 100,
+  "external_query_cap": 20,
+  "random_support_draws": 5
+}

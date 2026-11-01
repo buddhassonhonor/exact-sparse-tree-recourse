@@ -1,0 +1,38 @@
+[
+  {
+    "protocol": "immutable_l2",
+    "method": "carla_gs_kernel",
+    "outcomes_identical": true,
+    "successful_costs_equal": true
+  },
+  {
+    "protocol": "immutable_l2",
+    "method": "dice_random",
+    "outcomes_identical": true,
+    "successful_costs_equal": true
+  },
+  {
+    "protocol": "immutable_l2",
+    "method": "growing_constrained",
+    "outcomes_identical": true,
+    "successful_costs_equal": true
+  },
+  {
+    "protocol": "immutable_top3_l1",
+    "method": "carla_gs_kernel",
+    "outcomes_identical": true,
+    "successful_costs_equal": true
+  },
+  {
+    "protocol": "immutable_top3_l1",
+    "method": "dice_random",
+    "outcomes_identical": true,
+    "successful_costs_equal": true
+  },
+  {
+    "protocol": "immutable_top3_l1",
+    "method": "growing_constrained",
+    "outcomes_identical": true,
+    "successful_costs_equal": true
+  }
+]

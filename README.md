@@ -1,3 +1,29 @@
+# Diagnosing LF-PRR Tree Recourse — v1.4.0
+
+This release adds a **24-dataset support-policy comparison** and paired **leaf polishing of published-engine returns**, plus paired environment coverage gaps. On the same 9,957 primary top-3 queries, random/nearest-positive/CART-importance supports cover 0.566/0.625/0.873, compared with the joint optimum 0.917. The native optimum is the upper reference over admissible supports, not an equally informed selector. The old 5.7-fold ratio depends on the nearest-positive policy: unrounded means give 5.651985, while rounded three-decimal table entries give 5.615385. Policy comparisons replace it as the headline.
+
+GS constrained, DiCE random constrained and upstream CARLA GS kernel returns are projected into their reached positive leaf intersected with the original fixed support and training ranges. All before/after costs use the same successful returns. Across the two protocols/three engines, paired unit-mean cost reductions range 7.4–59.3%, with identical success sets. Dataset-bootstrap intervals and joint counts are archived. The exact mathematical clipping mechanism is inherited; new evidence measures its magnitude and application to distinct engines.
+
+## Reproduce v1.4.0
+
+Install requirements and set `RECOURSE_DATA_ROOT` to the provider cache described in the earlier instructions. Run from repository root:
+
+    python scripts/polish_support.py
+    python scripts/polish_engines.py
+
+The support study uses 24 datasets, five fitted splits, depth five, at most 100 queries per tree and five uniform random supports per query. CART importance is training-only. External polishing uses the original three splits and 20 queries per tree. `polish_engines.py` fixes Python hash seed zero before spawning workers, because upstream CARLA orders mutable columns through Python sets, and sets the per-query NumPy search seed. With this configuration all six engine/protocol original-outcome and original-cost arrays reproduce the previous release exactly. Full vectors remain in process memory and are not exported.
+
+Analyze saved observations without generating models:
+
+    python scripts/expand_mechanism_results.py
+    python scripts/polish_analysis.py
+
+The analysis validates nearest-support/native observations against the previous primary experiment, verifies paired polishing, reproduces paired environment differences from 23 real datasets, and checks the Exact-versus-LF-PRR20 timing comparison for each dataset/protocol. Exact is faster in all 48 dataset/protocol medians as well as the separate 11 scaling configurations. The DiCE budget sensitivity remains 72 queries per protocol; one query is 1/72, so it is not offered as convergence evidence. Legacy mixed-type/iteration/domain studies retain their separately stated sample designs.
+
+Code is MIT, generated results CC BY 4.0, and vendored CARLA code retains its MIT license. Provider data, full candidate feature vectors, manuscripts and reviewer correspondence are excluded. `config/polish_manifest.json` records LF-normalized text hashes and exact binary hashes for the release; the ZIP SHA256 identifies its exact bytes. Earlier version-specific DOIs are preserved below and do not contain these additions.
+
+---
+
 # Diagnosing LF-PRR Tree Recourse — v1.3.1
 
 Text manifest hashes normalize CRLF to LF; compressed tables and figures use exact-byte hashes. The ZIP SHA256 identifies the complete published attachment. The manifest describes the tagged release; later DOI documentation commits do not change that archived tag.
