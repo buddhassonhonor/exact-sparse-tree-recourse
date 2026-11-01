@@ -1,0 +1,6 @@
+{
+  "commit": "24db00aa8616eb2faedea0d6edf6e307cee9d192",
+  "path": "carla/recourse_methods/catalog/growing_spheres/library/gs_counterfactuals.py",
+  "upstream_sha256": "7b6a4dded0364ae472d6fb996b80cdca2a5412b68071e22978520ef80e4f65a1",
+  "change": "remove unused from carla import log; search algorithm unchanged"
+}

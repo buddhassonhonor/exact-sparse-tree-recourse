@@ -1,0 +1,8 @@
+{
+  "rank_feasible_queries": 159773,
+  "first_equals_cost99": 159773,
+  "all_output_pairs": 14883,
+  "all_output_excess": 8,
+  "old_mechanism_depth5_queries": 1507,
+  "old_internal_split_checks": 1507
+}

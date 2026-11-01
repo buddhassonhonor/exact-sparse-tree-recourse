@@ -20,3 +20,9 @@
 
 !exp/
 !exp/**
+
+# Expanded observation tables and caches stay local.
+exp/**/*.csv
+
+# Expanded observation tables and caches stay local.
+exp/**/*.csv

@@ -1,0 +1,13 @@
+{
+  "support_gap": 0.2923649525161215,
+  "search_gap": 0.051727835797941935,
+  "support_to_search_ratio": 5.651985009737323,
+  "within_d5_immutable": 0.9536837325041916,
+  "within_d5_top3": 0.9747544539704698,
+  "within_d11_immutable": 0.907556618802454,
+  "within_d11_top3": 0.943910290829298,
+  "solver_checks": 1536,
+  "solver_optimal": 1182,
+  "solver_infeasible": 354,
+  "solver_max_error": 1.0781878295729189e-07
+}

@@ -1,3 +1,48 @@
+# Diagnosing LF-PRR Tree Recourse — v1.3.0
+
+This release extends the core mechanisms, pool audits, controlled constraint doses and external comparisons to **24 datasets**. Five splits support primary quality, mechanism and dose analyses. External methods use three splits; the longer DiCE budget sensitivity uses one split. Source code is MIT, generated results CC BY 4.0; the vendored CARLA kernel retains its upstream MIT license. The associated manuscript is *Diagnosing LF-PRR Decision-Tree Recourse through Visited Leaves, Candidate Cost, and Action Constraints*.
+
+## Reproduce v1.3.0
+
+Install requirements and obtain provider datasets under their own access conditions. Set `RECOURSE_DATA_ROOT` to the provider cache described below. Run from the repository root:
+
+    python scripts/evidence_mechanisms.py
+    python scripts/evidence_dose.py
+    python scripts/evidence_main.py
+    python scripts/evidence_solver.py
+    python scripts/evidence_external.py
+    python scripts/evidence_convergence.py
+    python scripts/evidence_regression.py
+
+The core benchmark's depth-five coverage and leaf-rank observations are inherited from v1.2.0; regenerate them with `scripts/mechanism_breadth.py` if needed. Run latency after other quality jobs have finished:
+
+    python scripts/evidence_polish_timing.py
+
+To analyze the archived observations without regenerating models:
+
+    python scripts/expand_mechanism_results.py
+    python scripts/evidence_analysis.py
+
+Regenerating statistics uses archived query outcomes, not full returned vectors or provider records. It requires no manuscript source. The separate `scripts/evidence_regression.py` refits the Laplace-integrated binomial random-dataset-intercept models with 300 whole-dataset bootstrap resamples. Scripts resume completed per-dataset output units when rerunning models. Old eight-dataset iteration/grid/direction analyses retain their own designs; they are not pooled into the new 24-dataset mechanisms.
+
+## Interpretation and corrections
+
+Depth-five within-leaf choice accounts for 95.4%/97.5% of LF-PRR20 excess cost under Immutable/top-3. On the primary common queries, support optimization improves coverage by 0.292, versus 0.052 for completing the LF-PRR20 search. Single-output polishing preserves coverage. Polishing each repaired output before selection still exceeds Exact in 8 of 14,883 paired successes; polishing every restored endpoint equals Exact under complete-pool/fixed-support assumptions. The 159,773 identical first-compatible/cost ranks and filter-first coverage are partition consequences verified by assertions, not statistical discoveries.
+
+The epsilon-box implementation now rounds bounds inward to binary32 before clipping, correcting false rejections from real-valued inward faces. Compatible-first and post-restoration versions are labeled study adaptations, not reproductions of Tolomei's threshold assignment. LIRE is region-distance search; its constrained full-training single-tree specialization equals Exact. Raw training-point nearest neighbor is separate.
+
+The CARLA row executes the upstream Growing Spheres kernel with a sklearn/range adapter, not the full CARLA framework. Provenance and MIT license are in `scripts/vendor`. Five independent GS searches per fixed query yielded no Exact-feasible misses in this sample; finite shell sampling has no completeness guarantee. DiCE uses native constraints and explicit unconstrained-to-restored wrappers. Distance alignment leaves a soft class loss; the separate validity-first control assigns invalid points a dominating penalty. Budget caps 2/10/30 s retain native plateau stopping, which often stops early. Population-batch candidates and final returns are monitored, but one-dimensional initialization probes are not; initialization-only timeouts remain failures. Five alternatives favor DiCE relative to a single return. These are budgeted comparisons, not optimal-convergence claims or fair external runtime rankings.
+
+The independent raw-node reference has 1,152 L1 MILP checks at depths 3/5/11 plus 384 L2 MISOCP checks at depths 3/5: 1,182 optimal and 354 infeasible. Maximum objective/reconstructed-cost error is 1.08e-7; 49 feasible raw L2 points require path reconstruction before boundary/support validation. Solver building and solving times are reported separately. This is a node-flow encoding in the OCEAN family, not execution of OCEAN software.
+
+The 55-tree timing observations are retained from v1.2.0, with new tree-by-stratum summaries. Global interval timing covers only 392 Breast Cancer queries across five trees. Cached Exact is often faster than LF-PRR; polishing is useful for existing outputs and is not presented as faster than exact tree optimization. TOST tolerances are two/three extra misses per 100 as sensitivity scenarios, not validated domain utilities. Index-based immutable policies have no clinical/business semantics. No causal, deployment, or human-outcome claims follow.
+
+## Version history
+
+v1.2.0 remains available at https://doi.org/10.6084/m9.figshare.34875666.v1 and v1.1.1 at https://doi.org/10.6084/m9.figshare.34875612.v1. The current release is identified by its GitHub tag and manifest; these older DOIs do not cover v1.3.0. Historic instructions below apply only to their named version.
+
+---
+
 # Diagnosing LF-PRR Tree Recourse
 
 Current software release: **v1.2.0**, archived at [Figshare DOI 10.6084/m9.figshare.34875666.v1](https://doi.org/10.6084/m9.figshare.34875666.v1). Associated paper: *Diagnosing LF-PRR Decision-Tree Recourse through Visited Leaves, Candidate Cost, and Action Constraints*.

@@ -1,0 +1,25 @@
+{
+  "model": "normal dataset random-intercept binomial logistic; Laplace likelihood",
+  "uncertainty": "300 dataset-cluster bootstrap resamples",
+  "converged": true,
+  "bootstrap_converged": 300,
+  "observations": 134394,
+  "dose_cells": 9400,
+  "D": 24,
+  "random_sd": 0.8666253443712453,
+  "centering": {
+    "immutable_fraction": 0.3763031914893617,
+    "k": 3.034255319148936,
+    "depth": 9.808404255319148,
+    "log_leaves": 2.492750530337579,
+    "log_d": 2.4300285746258066
+  },
+  "scaling": {
+    "immutable_fraction": 0.2793388920031707,
+    "k": 1.40511867399292,
+    "depth": 6.6113372650563145,
+    "log_leaves": 1.25740121589974,
+    "log_d": 0.8136101483438926
+  },
+  "objective": 44068.77539965349
+}
