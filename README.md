@@ -1,5 +1,7 @@
 # Diagnosing LF-PRR Tree Recourse — v1.4.0
 
+Current v1.4.0 archive: [10.6084/m9.figshare.34875666.v3](https://doi.org/10.6084/m9.figshare.34875666.v3), scientific commit `5a9f7b1`.
+
 This release adds a **24-dataset support-policy comparison** and paired **leaf polishing of published-engine returns**, plus paired environment coverage gaps. On the same 9,957 primary top-3 queries, random/nearest-positive/CART-importance supports cover 0.566/0.625/0.873, compared with the joint optimum 0.917. The native optimum is the upper reference over admissible supports, not an equally informed selector. The old 5.7-fold ratio depends on the nearest-positive policy: unrounded means give 5.651985, while rounded three-decimal table entries give 5.615385. Policy comparisons replace it as the headline.
 
 GS constrained, DiCE random constrained and upstream CARLA GS kernel returns are projected into their reached positive leaf intersected with the original fixed support and training ranges. All before/after costs use the same successful returns. Across the two protocols/three engines, paired unit-mean cost reductions range 7.4–59.3%, with identical success sets. Dataset-bootstrap intervals and joint counts are archived. The exact mathematical clipping mechanism is inherited; new evidence measures its magnitude and application to distinct engines.
