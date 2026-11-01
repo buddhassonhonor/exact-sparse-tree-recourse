@@ -1,6 +1,6 @@
 # Diagnosing LF-PRR Tree Recourse
 
-Current software release: **v1.2.0**. Associated paper: *Diagnosing LF-PRR Decision-Tree Recourse through Visited Leaves, Candidate Cost, and Action Constraints*.
+Current software release: **v1.2.0**, archived at [Figshare DOI 10.6084/m9.figshare.34875666.v1](https://doi.org/10.6084/m9.figshare.34875666.v1). Associated paper: *Diagnosing LF-PRR Decision-Tree Recourse through Visited Leaves, Candidate Cost, and Action Constraints*.
 
 This release adds 24-dataset coverage/depth/budget comparisons, anchor completeness stress tests, paired segment/within-leaf/leaf-choice cost decomposition, leaf polishing and a constructed counterexample, constraint-pruned DFS, aligned DiCE proximity and path tweaking, raw-tree MILP/MISOCP, directed grids, feature-specific direction sensitivity and isolated 55-tree timings. Five seeds are used for the broadened quality study; inference clusters datasets. Earlier v1.1.1 code/results and DOI are retained as the baseline, not claimed to contain these additions.
 
